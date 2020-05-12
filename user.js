@@ -54,3 +54,8 @@ user_pref("privacy.trackingprotection.pbmode.enabled", false);
 // Empty startup page
 user_pref("browser.startup.page", 0);
 user_pref("browser.newtabbage.enabled", false);
+// Services
+user_pref("services.settings.server", "");
+// aus5.mozilla.org
+user_pref("media.gmp-manager.url", "");
+user_pref("extensions.systemAddon.update.url", "")
