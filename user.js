@@ -59,3 +59,6 @@ user_pref("services.settings.server", "");
 // aus5.mozilla.org
 user_pref("media.gmp-manager.url", "");
 user_pref("extensions.systemAddon.update.url", "")
+// Normandy and app feedback
+user_pref("app.normandy.api_url", "")
+user_pref("app.feedback.baseURL", "")
