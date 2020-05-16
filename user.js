@@ -9,6 +9,7 @@ user_pref("app.shield.optoutstudies.enabled", false);
 // telemetry
 user_pref("browser.ping-centre.telemetry", false);
 user_pref("security.ssl.errorReporting.url", "https://localhost");
+user_pref("browser.chrome.errorReporter.infoURL", "https://localhost");
 // Accessibility
 user_pref("accessibility.force_disabled", 1);
 user_pref("accessibility.typeaheadfind.flashBar", 0);
@@ -27,7 +28,7 @@ user_pref("browser.newtabpage.activity-stream.telemetry.ping.endpoint", "https:/
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 // Disable Captive Portal Detection
-user_pref("network.captive-portal-service.enabled", false)
+user_pref("network.captive-portal-service.enabled", false);
 user_pref("captivedetect.maxRetryCount", 0);
 user_pref("network.connectivity-service.enabled", false);
 // Disable Safebrowsing Checks
@@ -68,7 +69,7 @@ user_pref("browser.search.geoSpecificDefaults.url", "https://localhost");
 user_pref("browser.search.searchEnginesURL", "https://localhost");
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.update", false);
-user_pref("browser.search.update.interval", 995795774646);
+user_pref("browser.search.update.interval", 99579446);
 user_pref("browser.startup.homepage_override.mstone","ignore");
 // Disable DNS prefetch
 user_pref("network.dns.disablePrefetch", true);
@@ -107,11 +108,11 @@ user_pref("browser.feeds.showFirstRunUI", false);
 user_pref("services.settings.server", "https://localhost");
 // aus5.mozilla.org
 user_pref("media.gmp-manager.url", "https://localhost");
-user_pref("extensions.systemAddon.update.url", "https://localhost")
+user_pref("extensions.systemAddon.update.url", "https://localhost");
 // Normandy and app feedback
-user_pref("app.normandy.api_url", "https://localhost")
+user_pref("app.normandy.api_url", "https://localhost");
 user_pref("app.normandy.first_run", false);
-user_pref("app.feedback.baseURL", "https://localhost")
+user_pref("app.feedback.baseURL", "https://localhost");
 // Toolkit telemetry
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
